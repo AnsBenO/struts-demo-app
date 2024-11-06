@@ -1,0 +1,20 @@
+{
+	"name": "struts-demo-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx tailwindcss -i ./src/main/webapp/css/styles.css -o ./src/main/webapp/css/output.css && mvn jetty:run",
+		"style": "npx tailwindcss -i ./src/main/webapp/css/styles.css -o ./src/main/webapp/css/output.css --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"tailwindcss": "^3.4.14"
+	},
+	"dependencies": {
+		"struts-demo-app": "file:"
+	}
+}
